@@ -1,9 +1,10 @@
 #For loop tutorial
 
-for i in 1 3 5;
+for i in {1..10}
 do 
    echo $i
-   touch new file$i.txt
+   touch newfile$i.txt
+   touch Newfile$i.txt
 done
 
 
